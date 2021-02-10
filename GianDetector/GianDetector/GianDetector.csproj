@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GianDetectorML.Model\GianDetectorML.Model.csproj">
+      <Project>{7925B089-0225-446A-99C1-084800C60524}</Project>
+      <Name>GianDetectorML.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
