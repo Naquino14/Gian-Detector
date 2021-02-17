@@ -1,2 +1,4 @@
 
 *.png
+GianDetector/GianDetectorML.ConsoleApp/bin/Debug/netcoreapp3.1/runtimes/linux-x64/*
+GianDetector/GianDetectorML.ConsoleApp/bin/Debug/netcoreapp3.1/runtimes/osx-x64/*

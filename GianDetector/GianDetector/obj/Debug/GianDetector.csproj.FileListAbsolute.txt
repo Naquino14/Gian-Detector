@@ -1,0 +1,11 @@
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\MLModel.zip
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\GianDetector.exe.config
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\GianDetector.exe
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\GianDetector.pdb
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\GianDetectorML.Model.dll
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\bin\Debug\GianDetectorML.Model.pdb
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\obj\Debug\GianDetector.csprojAssemblyReference.cache
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\obj\Debug\GianDetector.csproj.CoreCompileInputs.cache
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\obj\Debug\GianDetector.csproj.CopyComplete
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\obj\Debug\GianDetector.exe
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetector\obj\Debug\GianDetector.pdb

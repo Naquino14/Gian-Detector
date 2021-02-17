@@ -1,0 +1,10 @@
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\bin\Debug\netstandard2.0\GianDetectorML.Model.deps.json
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\bin\Debug\netstandard2.0\GianDetectorML.Model.dll
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\bin\Debug\netstandard2.0\GianDetectorML.Model.pdb
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.csprojAssemblyReference.cache
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.AssemblyInfoInputs.cache
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.AssemblyInfo.cs
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.csproj.CoreCompileInputs.cache
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.dll
+D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.Model\obj\Debug\netstandard2.0\GianDetectorML.Model.pdb

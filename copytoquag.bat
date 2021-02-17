@@ -1,0 +1,3 @@
+@echo off
+xcopy /s/y "D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes" "D:\CSharp Projects\GiggityBot\GiggityBot\GiggityBot\GiggityBot\bin\Debug\netcoreapp3.1"
+xcopy /s/y "D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\GianDetectorML.ConsoleApp\bin\Debug\netcoreapp3.1" "D:\CSharp Projects\GiggityBot\GiggityBot\GiggityBot\GiggityBot\bin\Debug\netcoreapp3.1"

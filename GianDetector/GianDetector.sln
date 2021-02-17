@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GianDetector", "GianDetector\GianDetector.csproj", "{9144DFA6-D8B5-4B10-8775-692A94720591}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GianDetectorML.Model", "GianDetectorML.Model\GianDetectorML.Model.csproj", "{71E97D4C-6281-4F66-9260-7B371C172772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GianDetectorML.ConsoleApp", "GianDetectorML.ConsoleApp\GianDetectorML.ConsoleApp.csproj", "{03C9613B-03A2-4E82-8D02-15E7BF74E943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9144DFA6-D8B5-4B10-8775-692A94720591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9144DFA6-D8B5-4B10-8775-692A94720591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9144DFA6-D8B5-4B10-8775-692A94720591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E97D4C-6281-4F66-9260-7B371C172772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E97D4C-6281-4F66-9260-7B371C172772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E97D4C-6281-4F66-9260-7B371C172772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E97D4C-6281-4F66-9260-7B371C172772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C9613B-03A2-4E82-8D02-15E7BF74E943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C9613B-03A2-4E82-8D02-15E7BF74E943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C9613B-03A2-4E82-8D02-15E7BF74E943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C9613B-03A2-4E82-8D02-15E7BF74E943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
