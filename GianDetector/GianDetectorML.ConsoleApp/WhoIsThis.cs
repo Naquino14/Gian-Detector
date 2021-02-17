@@ -8,7 +8,7 @@ namespace GianDetectorML.ConsoleApp
     {
         public string CompareImage(string pathToComparison)
         {
-
+            // nate add stuff here k thx
             return null;
         }
     }
