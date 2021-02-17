@@ -6,7 +6,7 @@ namespace GianDetectorML.ConsoleApp
 {
     public class WhoIsThis
     {
-        public string CompareImage(string pathToComparison)
+        public static string CompareImage(string pathToComparison)
         {
             // nate add stuff here k thx
             return null;
