@@ -9,20 +9,28 @@ namespace GianDetectorML.ConsoleApp
     {
         static void Main(string[] args)
         {
-            // Create single instance of sample data from first line of dataset for model input
-            ModelInput sampleData = new ModelInput()
+            try
             {
-                ImageSource = @"D:\CSharp Projects\Gian Detector\Gian-Detector\GianDetector\Input\Train\Andrino\1.png",
-            };
+                Console.WriteLine("Enter image path:");
+                // Create single instance of sample data from first line of dataset for model input
+                ModelInput sampleData = new ModelInput()
+                {
+                    ImageSource = @Console.ReadLine(),
+                };
 
-            // Make a single prediction on the sample data and print results
-            var predictionResult = ConsumeModel.Predict(sampleData);
+                // Make a single prediction on the sample data and print results
+                var predictionResult = ConsumeModel.Predict(sampleData);
 
-            Console.WriteLine("Using model to make single prediction -- Comparing actual Label with predicted Label from sample data...\n\n");
-            Console.WriteLine($"ImageSource: {sampleData.ImageSource}");
-            Console.WriteLine($"\n\nPredicted Label value {predictionResult.Prediction} \nPredicted Label scores: [{String.Join(",", predictionResult.Score)}]\n\n");
-            Console.WriteLine("=============== End of process, hit any key to finish ===============");
-            Console.ReadKey();
+                Console.WriteLine("Using model to make single prediction -- Comparing actual Label with predicted Label from sample data...\n\n");
+                Console.WriteLine($"ImageSource: {sampleData.ImageSource}");
+                Console.WriteLine($"\n\nPredicted Label value {predictionResult.Prediction} \nPredicted Label scores: [{String.Join(",", predictionResult.Score)}]\n\n");
+                Console.WriteLine("=============== End of process, hit any key to finish ===============");
+                Console.ReadKey();
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Environment.Exit(1);
+            }
         }
     }
 }
