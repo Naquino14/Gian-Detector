@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GianDetectorML.Model;
 
 namespace GianDetectorML.ConsoleApp
 {
@@ -8,8 +9,22 @@ namespace GianDetectorML.ConsoleApp
     {
         public static string CompareImage(string pathToComparison)
         {
-            // nate add stuff here k thx
-            return null;
+            try
+            {
+                ModelInput sampleData = new ModelInput()
+                {
+                    ImageSource = pathToComparison,
+                };
+
+                var predictionResult = ConsumeModel.Predict(sampleData);
+
+                string _result = "Prediction: " + predictionResult.Prediction + " | Scores: " + predictionResult.Score;
+                return _result;
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
+            }
         }
     }
 }

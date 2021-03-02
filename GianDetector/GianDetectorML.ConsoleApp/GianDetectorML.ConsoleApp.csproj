@@ -17,4 +17,10 @@
   <ItemGroup>
     <ProjectCapability Include="ModelBuilderGenerated" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TensorFlow.NET">
+      <HintPath>bin\Debug\netcoreapp3.1\TensorFlow.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
